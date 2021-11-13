@@ -1,15 +1,17 @@
 import React, { useState } from 'react';
 
 
-export const Toogle = () => {
+const Toogle = () => {
+    
     handleClick() {
-        // todo
-      }
+        //todo
+    }
+      
     return (
         <div>
-            <button>ON</button>
+            <button >ON</button>
         </div>
     )
 }
-
+export default Toogle
 
